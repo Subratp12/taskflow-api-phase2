@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# TaskFlow API — Development Dependencies
+# Install: pip install -r requirements-dev.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Includes all production deps
+-r requirements.txt
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest==7.4.3
+pytest-flask==1.3.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+Faker==20.0.3
+
+# ── Code Quality ──────────────────────────────────────────────────────────────
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+
+# ── Local Dev Utilities ───────────────────────────────────────────────────────
+ipython==8.17.2
